@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "表单验证",
+  "usingComponents": {
+    "page-head": "/components/page-head"
+  }
+}

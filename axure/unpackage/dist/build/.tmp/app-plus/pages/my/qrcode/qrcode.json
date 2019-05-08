@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "二维码生成",
+  "usingComponents": {
+    "page-head": "/components/page-head",
+    "qrcode": "/components/qrcode/qrcode"
+  }
+}

@@ -1,0 +1,38 @@
+
+.input-content {
+	width: 100%;
+}
+.input-content textarea {
+	padding: 16rpx 25rpx 15rpx 25rpx;
+	font-size: 30rpx;
+	min-height: 500rpx;
+	line-height: 1.5;
+}
+.preview {
+	border-top: 1rpx solid #e0e0e0;
+	width: 100%;
+}
+.toolbar {
+	width: 100%;
+	border: none;
+	-webkit-box-shadow: 0 0rpx 4rpx rgba(0, 0, 0, 0.157), 0 0rpx 4rpx rgba(0, 0, 0, 0.227);
+	        box-shadow: 0 0rpx 4rpx rgba(0, 0, 0, 0.157), 0 0rpx 4rpx rgba(0, 0, 0, 0.227);
+}
+.toolbar .iconfont {
+	display: inline-block;
+	cursor: pointer;
+	height: 61.6rpx;
+	width: 61.6rpx;
+	margin: 13rpx 0 11rpx 0rpx;
+	font-size: 33rpx;
+	padding: 10rpx 13rpx 11rpx 8rpx;
+	color: #757575;
+	border-radius: 11rpx;
+	text-align: center;
+	background: none;
+	border: none;
+	outline: none;
+	line-height: 2.2;
+	vertical-align: middle;
+}
+

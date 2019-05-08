@@ -1,0 +1,18 @@
+{
+  "navigationBarTitleText": "新增收货人",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "保存",
+        "redDot": false,
+        "fontWeight": "bold",
+        "fontSize": "16",
+        "float": "right"
+      }
+    ]
+  },
+  "usingComponents": {
+    "mpvue-picker": "/components/mpvue-picker/mpvuePicker",
+    "mpvue-city-picker": "/components/mpvue-citypicker/mpvueCityPicker"
+  }
+}

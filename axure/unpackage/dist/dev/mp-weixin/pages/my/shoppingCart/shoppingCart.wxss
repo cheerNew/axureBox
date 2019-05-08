@@ -1,0 +1,133 @@
+
+.page{
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background-color: #EEEEEE;
+	padding-bottom:12%
+}
+uni-page-body{
+	height: 100%;
+	background-color: #EEEEEE;
+}
+.swipeAction{
+	width: 100%;
+}
+.cont {
+	width: 100%;
+	height: auto;
+	padding:30rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.title{
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+	overflow:hidden;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	display: -webkit-box;
+}
+.imgBox image{
+	width: 180rpx;
+	height: 180rpx;
+}
+.style{
+	background-color: #f8f8f8;
+	width: 156rpx;
+	border-radius: 6rpx;
+	text-align: center;
+	color: #AAAAAA;
+}
+.style image{
+	width: 20rpx;
+	height: 20rpx;
+}
+.rightMain{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	padding-left: 20rpx;
+}
+checkbox{
+	margin-right: 20rpx;
+}
+.number{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.number .value{
+	color: red;
+}
+.uni-numbox__minus{
+	background-color: rgba(0,0,0,0);
+}
+.uni-numbox{
+	height: 31px;
+}
+.bottomBox{
+	width: 100%;
+	height: 100rpx;
+	padding: 1% 3%;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	background-color: #fff;
+	position: fixed;
+	bottom: 0;
+	line-height: 100rpx;
+	display:-webkit-box;
+	display:-webkit-flex;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.bottomLeft{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.bottomLeft text{
+	color: red;
+	font-size: 36rpx;
+}
+.jiesuan{
+	color: #fff;
+	background-color: red;
+	padding: 1% 4%;
+	border-radius: 30rpx;
+}
+

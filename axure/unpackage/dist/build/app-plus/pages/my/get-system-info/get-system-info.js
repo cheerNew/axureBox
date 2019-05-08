@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"uni-pd { padding-left: ",[0,30],"; }\n",],undefined,{path:"./pages/my/get-system-info/get-system-info.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/my/get-system-info/get-system-info.wxml') } }));

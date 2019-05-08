@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+    <head>
+        <meta charset="UTF-8" />
+        <script>
+            var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') || CSS.supports('top: constant(a)'))
+            document.write('<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' + (coverSupport ? ', viewport-fit=cover' : '') + '" />')
+        </script>
+        <title>View</title>
+        <style>
+            * {
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                -webkit-tap-highlight-color: transparent;
+            }
+
+            input[type="search"i]::-webkit-search-cancel-button {
+                display: none;
+            }
+
+        </style>
+        <script>
+            var __wxConfig = {"debug":false,"appname":"axure","entryPagePath":"pages/gesture-lock/gesture-lock.html","page":{"pages/gesture-lock/gesture-lock.html":{"window":{"navigationBarTitleText":"手势图案锁屏","usingComponents":{"page-head":"/components/page-head","mpvue-gesture-lock":"/components/mpvueGestureLock/index"}}},"pages/index/index.html":{"window":{"usingComponents":{}}},"pages/classification/classification.html":{"window":{"usingComponents":{}}},"pages/item/item.html":{"window":{"usingComponents":{}}},"pages/my/my.html":{"window":{"usingComponents":{"uni-list":"/components/uni-list/uni-list","uni-list-item":"/components/uni-list-item/uni-list-item","uni-collapse":"/components/uni-collapse/uni-collapse","uni-collapse-item":"/components/uni-collapse-item/uni-collapse-item"}}},"pages/urlLink/urlLink.html":{"window":{"usingComponents":{}}},"pages/my/personalCenter/personalCenter.html":{"window":{"navigationBarTitleText":"个人中心","usingComponents":{"uni-list":"/components/uni-list/uni-list","uni-list-item":"/components/uni-list-item/uni-list-item"}}},"pages/my/managementUrl/managementUrl.html":{"window":{"navigationBarTitleText":"地址管理","usingComponents":{}}},"pages/my/addmanagementUrl/addmanagementUrl.html":{"window":{"navigationBarTitleText":"新增收货人","titleNView":{"buttons":[{"text":"保存","redDot":false,"fontWeight":"bold","fontSize":"16","float":"right"}]},"usingComponents":{"mpvue-picker":"/components/mpvue-picker/mpvuePicker","mpvue-city-picker":"/components/mpvue-citypicker/mpvueCityPicker"}}},"pages/my/shoppingCart/shoppingCart.html":{"window":{"navigationBarTitleText":"购物车","usingComponents":{"uni-swipe-action":"/components/uni-swipe-action/uni-swipe-action","uni-number-box":"/components/uni-number-box/uni-number-box"}}},"pages/my/md-editor/md-editor.html":{"window":{"navigationBarTitleText":"富文本编辑器","usingComponents":{"page-foot":"/components/page-foot","ly-markdown":"/components/ly-markdown/ly-markdown"}}},"pages/my/systemSetup/systemSetup.html":{"window":{"navigationBarTitleText":"获取手机网络状态","usingComponents":{"page-head":"/components/page-head"}}},"pages/my/get-system-info/get-system-info.html":{"window":{"navigationBarTitleText":"获取手机网络状态","usingComponents":{"page-head":"/components/page-head"}}},"pages/my/make-phone-call/make-phone-call.html":{"window":{"navigationBarTitleText":"打电话","usingComponents":{"page-head":"/components/page-head"}}},"pages/my/upload-file/upload-file.html":{"window":{"navigationBarTitleText":"上传文件","usingComponents":{"page-head":"/components/page-head"}}},"pages/my/choose-location/choose-location.html":{"window":{"navigationBarTitleText":"使用地图选择位置","usingComponents":{"page-head":"/components/page-head"}}},"pages/my/datachecker/datachecker.html":{"window":{"navigationBarTitleText":"表单验证","usingComponents":{"page-head":"/components/page-head"}}},"pages/my/qrcode/qrcode.html":{"window":{"navigationBarTitleText":"二维码生成","usingComponents":{"page-head":"/components/page-head","qrcode":"/components/qrcode/qrcode"}}},"pages/my/image/image.html":{"window":{"navigationBarTitleText":"图片","usingComponents":{}}}},"global":{"window":{"navigationBarTextStyle":"black","navigationBarTitleText":"商城","navigationBarBackgroundColor":"#F8F8F8","backgroundColor":"#F8F8F8"}},"tabBar":{"color":"#707070","selectedColor":"#2AB795","backgroundColor":"","borderStyle":"black","list":[{"pagePath":"pages/index/index.html","text":"首页","iconPath":"static/nav1.png","selectedIconPath":"static/nav1-a.png"},{"pagePath":"pages/classification/classification.html","text":"分类","iconPath":"static/nav2.png","selectedIconPath":"static/nav2-a.png"},{"pagePath":"pages/item/item.html","text":"专题","iconPath":"static/nav3.png","selectedIconPath":"static/nav3-a.png"},{"pagePath":"pages/my/my.html","text":"我的","iconPath":"static/nav4.png","selectedIconPath":"static/nav4-a.png"}],"position":"bottom"},"networkTimeout":{"request":60000,"connectSocket":60000,"uploadFile":60000,"downloadFile":60000},"platform":"devtools","pages":["pages/gesture-lock/gesture-lock","pages/index/index","pages/classification/classification","pages/item/item","pages/my/my","pages/urlLink/urlLink","pages/my/personalCenter/personalCenter","pages/my/managementUrl/managementUrl","pages/my/addmanagementUrl/addmanagementUrl","pages/my/shoppingCart/shoppingCart","pages/my/md-editor/md-editor","pages/my/systemSetup/systemSetup","pages/my/get-system-info/get-system-info","pages/my/make-phone-call/make-phone-call","pages/my/upload-file/upload-file","pages/my/choose-location/choose-location","pages/my/datachecker/datachecker","pages/my/qrcode/qrcode","pages/my/image/image"],"subPackages":[],"splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"compilerVersion":"1.9.4","usingComponents":{"page-head":"/components/page-head","page-foot":"/components/page-foot"}}
+
+        </script>
+        <script>
+            var __id__ = '';
+            window.__dispatchGenerateFunc__ = function(page) {
+                __id__ = page;
+                document.title = page;
+                // window.history.pushState('', '', page);
+                plus.webview.currentWebview().setJsFile('_www/' + page.replace('.html', '.js'));
+            };
+
+        </script>
+        <script src="__uniappes6.js"></script>
+        <script src="uniapp://ready"></script>
+    </head>
+
+    <body>
+        <div></div>
+    </body>
+
+</html>

@@ -1,0 +1,115 @@
+
+.page{
+	background-color: #EEEEEE;
+	padding-bottom:3%
+}
+uni-page-body{
+	height: 100%;
+	background-color: #EEEEEE;
+}
+.yt-box{
+	background-color: #fff;
+	position: relative;
+	width: 95%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	border-top:1px solid #ccc;
+	color: #333;
+	margin: 0 auto 5% auto;
+	border-radius: 20rpx;
+}
+.yt-main{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	font-size: 36rpx;
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+	overflow:hidden;
+	line-height: 2;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+	padding: 2%;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.yt-name{
+	padding: 0 2%;
+}
+.yt-defult{
+	margin-left: 13%;
+	border: 1px solid #FD994B;
+	color: #FD994B;
+	font-size: 28rpx;
+	border-radius: 10rpx;
+	line-height: 1.5;
+	padding: 0 3%;
+}
+.yt-color{
+	color: #666;
+	padding: 0 2% 4% 4%;
+	border-bottom: 1px solid #ccc;
+}
+.yt-nav{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	padding: 3%;
+	border-bottom: 1px solid #ccc;
+}
+.yt-nav-left{
+	width: 40%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.yt-nav-right{
+	width:45%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-justify-content: space-around;
+	    -ms-flex-pack: distribute;
+	        justify-content: space-around;
+}
+.yt-nav-right image{
+	width: 46rpx;
+	height: 44rpx;
+}
+.yt-nav-right text{
+	color: #666;
+}
+radio .uni-radio-input-checked{
+	background-color: #2AB795;
+	border-color: #2AB795;
+}
+

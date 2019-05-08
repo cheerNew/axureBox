@@ -1,0 +1,70 @@
+{
+  "pages": [
+    "pages/gesture-lock/gesture-lock",
+    "pages/index/index",
+    "pages/classification/classification",
+    "pages/item/item",
+    "pages/my/my",
+    "pages/urlLink/urlLink",
+    "pages/my/personalCenter/personalCenter",
+    "pages/my/managementUrl/managementUrl",
+    "pages/my/addmanagementUrl/addmanagementUrl",
+    "pages/my/shoppingCart/shoppingCart",
+    "pages/my/md-editor/md-editor",
+    "pages/my/systemSetup/systemSetup",
+    "pages/my/get-system-info/get-system-info",
+    "pages/my/make-phone-call/make-phone-call",
+    "pages/my/upload-file/upload-file",
+    "pages/my/choose-location/choose-location",
+    "pages/my/datachecker/datachecker",
+    "pages/my/qrcode/qrcode",
+    "pages/my/image/image"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "商城",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#707070",
+    "selectedColor": "#2AB795",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/nav1.png",
+        "selectedIconPath": "static/nav1-a.png"
+      },
+      {
+        "pagePath": "pages/classification/classification",
+        "text": "分类",
+        "iconPath": "static/nav2.png",
+        "selectedIconPath": "static/nav2-a.png"
+      },
+      {
+        "pagePath": "pages/item/item",
+        "text": "专题",
+        "iconPath": "static/nav3.png",
+        "selectedIconPath": "static/nav3-a.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "static/nav4.png",
+        "selectedIconPath": "static/nav4-a.png"
+      }
+    ]
+  },
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "axure",
+  "compilerVersion": "1.9.4",
+  "usingComponents": {
+    "page-head": "/components/page-head",
+    "page-foot": "/components/page-foot"
+  }
+}

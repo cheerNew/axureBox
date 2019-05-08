@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"cell-pd { padding: ",[0,22]," ",[0,30],"; }\n",],undefined,{path:"./pages/my/image/image.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/my/image/image.wxml') } }));

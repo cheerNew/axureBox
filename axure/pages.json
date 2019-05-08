@@ -1,0 +1,196 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/gesture-lock/gesture-lock",
+			"style": {
+				"navigationBarTitleText": "手势图案锁屏"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				/* "app-plus": {
+                    "bounce": "none",
+                    "titleNView": {
+                        "buttons": [ 
+                            {
+                                "text": "&#xe607;", 
+								"fontSrc":"/static/iconfont.ttf",
+                                "fontSize":"25",
+                                "float": "left",
+								"redDot" : true,
+								"color":"#2AB795"
+								
+                            },
+                            {
+                                "text": "&#xe600;", 
+                                "fontSize":"35",
+                                "float": "right",
+								"fontSrc":"/static/iconfontche.ttf",
+								"redDot" : true,
+								"color":"#2AB795",
+								"badgeText": "12"
+                            },
+							{
+							    "text": "&#xe67e;", 
+							    "fontSize":"25",
+							    "float": "right",
+								"fontSrc":"/static/sousuo.ttf",
+								"redDot" : false,
+								"color":"#2AB795"
+							}
+                        ]
+                      
+                    }
+                } */
+			}
+		},
+		{
+			"path": "pages/classification/classification",
+			"style": {
+			}
+		},
+		{
+			"path": "pages/item/item",
+			"style": {
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+			}
+		},
+		{
+			"path": "pages/urlLink/urlLink",
+			"style": {
+			}
+		},
+		{
+			"path": "pages/my/personalCenter/personalCenter",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		},
+		{
+			"path": "pages/my/managementUrl/managementUrl",
+			"style": {
+				"navigationBarTitleText": "地址管理"
+			}
+		},
+		{
+			"path": "pages/my/addmanagementUrl/addmanagementUrl",
+			"style": {
+				"navigationBarTitleText": "新增收货人",
+				"app-plus" : {  
+				"titleNView" : {  
+					"buttons" : [  
+						{  
+							"text" : "保存",  
+							"redDot" : false,
+							"fontWeight":"bold",
+							"fontSize":"16",
+                            "float": "right"
+						}
+					]  
+				}  
+			}  
+			}
+		},
+		{
+			"path": "pages/my/shoppingCart/shoppingCart",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		},
+		{
+			"path": "pages/my/md-editor/md-editor",
+			"style": {
+				"navigationBarTitleText": "富文本编辑器"
+			}
+		},
+		{
+			"path": "pages/my/systemSetup/systemSetup",
+			"style": {
+				"navigationBarTitleText": "获取手机网络状态"
+			}
+		},
+		{
+			"path": "pages/my/get-system-info/get-system-info",
+			"style": {
+				"navigationBarTitleText": "获取手机网络状态"
+			}
+		},
+		{
+			"path": "pages/my/make-phone-call/make-phone-call",
+			"style": {
+				"navigationBarTitleText": "打电话"
+			}
+		},
+		{
+			"path": "pages/my/upload-file/upload-file",
+			"style": {
+				"navigationBarTitleText": "上传文件"
+			}
+		},
+		{
+			"path": "pages/my/choose-location/choose-location",
+			"style": {
+				"navigationBarTitleText": "使用地图选择位置"
+			}
+		},
+		{
+			"path": "pages/my/datachecker/datachecker",
+			"style": {
+				"navigationBarTitleText": "表单验证"
+			}
+		},
+		{
+			"path": "pages/my/qrcode/qrcode",
+			"style": {
+				"navigationBarTitleText": "二维码生成"
+			}
+		},
+		{
+			"path": "pages/my/image/image",
+			"style": {
+				"navigationBarTitleText": "图片"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "商城",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar" : {
+	    "color" : "#707070",
+	    "selectedColor" : "#2AB795",
+	    "list" : [
+	        {
+	            "pagePath" : "pages/index/index",
+	            "text" : "首页",
+	            "iconPath" : "static/nav1.png",
+	            "selectedIconPath" : "static/nav1-a.png"
+	        },
+	        {
+	            "pagePath" : "pages/classification/classification",
+	            "text" : "分类",
+	            "iconPath" : "static/nav2.png",
+	            "selectedIconPath" : "static/nav2-a.png"
+	        },
+	        {
+	            "pagePath" : "pages/item/item",
+	            "text" : "专题",
+	            "iconPath" : "static/nav3.png",
+	            "selectedIconPath" : "static/nav3-a.png"
+	        },
+			{
+			    "pagePath" : "pages/my/my",
+			    "text" : "我的",
+			    "iconPath" : "static/nav4.png",
+			    "selectedIconPath" : "static/nav4-a.png"
+			}
+	    ]
+	}
+}

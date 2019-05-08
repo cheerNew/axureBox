@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "富文本编辑器",
+  "usingComponents": {
+    "ly-markdown": "/components/ly-markdown/ly-markdown"
+  }
+}

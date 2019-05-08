@@ -1,0 +1,220 @@
+
+.page{
+	background-color: #EEEEEE;
+	padding-bottom:12%
+}
+uni-page-body{
+	height: 100%;
+	background-color: #EEEEEE;
+}
+navigator{
+	width: 100%;
+}
+.topBox{
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	background-color: #3F4552;
+	color: #fff;
+	padding: 9% 2%;
+}
+.topLeft{
+	width: 35%;
+	text-align: right;
+	padding-right: 4%;
+}
+.topLeft image{
+	width: 180rpx;
+	height: 180rpx;
+}
+.topCenter{
+	width: 45%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+.topRight{
+	width: 20%;
+	text-align: right;
+	padding-right: 4%;
+}
+.topRight image{
+	width: 30rpx;
+	height: 50rpx;
+}
+uni-view{
+	line-height: 1.5;
+}
+.userName{
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+	overflow:hidden;
+	line-height: 2;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+	display: -webkit-box;
+	font-size: 18px;
+}
+.grade{
+	border: 1px solid #fff;
+	border-radius: 10rpx;
+	width: 140rpx;
+	text-align: center;
+	font-size: 13px;
+	height: 40rpx;
+	line-height: 40rpx;
+}
+.flex-item {
+	width: 33.3%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.green{
+	color: #2AB795;
+	line-height: 1.8;
+	font-weight: 600;
+	font-size: 33rpx;
+}
+.padding-height{
+	padding: 3% 0;
+	border-bottom: 1px solid #ccc;
+	background-color: #fff;
+}
+.padding-height1{
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	background-color: #fff;
+	margin-top: 5%;
+}
+.padding-height2{
+	border-bottom: 1px solid #ccc;
+	background-color: #fff;
+}
+.flex-item1,.flex-item2{
+	width: 20%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	line-height: 2.5;
+	padding: 3% 0 0 0;
+}
+.flex-item1 image{
+	width: 48rpx;
+	height: 52rpx;
+}
+.flex-item2{
+	width: 25%;
+}
+.flex-item2 image{
+	width: 48rpx;
+	height: 52rpx;
+}
+.listBox{
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+.listItem{
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	padding: 24rpx 30rpx;
+	position: relative;
+}
+.left-item{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.left-item image{
+	width: 52rpx;
+	height: 52rpx;
+	margin-right: 18rpx;
+}
+.left-item text{
+	font-size: 16px;
+	-o-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: inherit;
+	line-height: 1.5;
+	overflow: hidden;
+}
+.listItem:after{
+	position: absolute;
+	z-index: 3;
+	right: 0;
+	bottom: 0;
+	left: 15px;
+	height: 1px;
+	content: '';
+	-webkit-transform: scaleY(.5);
+	-ms-transform: scaleY(.5);
+	transform: scaleY(.5);
+	background-color: #c8c7cc;
+}
+.fontSize{
+	color: #666666;
+}
+.right-item{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+

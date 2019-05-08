@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "富文本编辑器",
+  "usingComponents": {
+    "page-foot": "/components/page-foot",
+    "ly-markdown": "/components/ly-markdown/ly-markdown"
+  }
+}
